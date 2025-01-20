@@ -6,6 +6,7 @@ const port = 5000;
 const expressApp: Express = express();
 
 expressApp.post('/read', readHandler);
+expressApp.use(express.json());
 expressApp.use(express.static((`${__dirname}/static`)));
 expressApp.use(express.static('node_modules/bootstrap/dist'));
 expressApp.get('/sendcity', (_req, resp) => {
