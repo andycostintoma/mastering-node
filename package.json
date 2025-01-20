@@ -1,0 +1,39 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "01-01": "tsx watch src/01-concurrency/01-callbacks/server.ts",
+    "01-02": "tsx watch src/01-concurrency/02-promises/server.ts",
+    "01-03": "tsx watch src/01-concurrency/03-promisify/server.ts",
+    "01-04": "tsx watch src/01-concurrency/04-promisify-manual/server.ts",
+    "01-05": "tsx watch src/01-concurrency/05-blocking/server.ts",
+    "01-06": "tsx watch src/01-concurrency/06-yielding-control/server.ts",
+    "01-07": "tsx watch src/01-concurrency/07-worker-threads/server.ts",
+    "01-08": "tsx watch src/01-concurrency/08-worker-threads-as-callbacks/server.ts",
+    "02-01": "tsx watch src/02-handling-http-requests/01-http-requests/server.ts",
+    "02-02": "tsx watch src/02-handling-http-requests/02-http-responses/server.ts",
+    "02-03": "tsx watch src/02-handling-http-requests/03-https/server.ts",
+    "02-04": "tsx watch src/02-handling-http-requests/04-express/server.ts",
+    "02-05": "tsx watch src/02-handling-http-requests/05-express-enhancements/server.ts",
+    "03-01": "tsx watch src/03-streams/01-writing-to-streams/server.ts",
+    "03-02": "tsx watch src/03-streams/02-reading-from-streams/server.ts",
+    "03-03": "tsx watch src/03-streams/03-piping-data/server.ts",
+    "03-04": "tsx watch src/03-streams/04-transforming-data/server.ts",
+    "03-05": "tsx watch src/03-streams/05-object-mode/server.ts",
+    "03-06": "tsx watch src/03-streams/06-express-files/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
